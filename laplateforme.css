@@ -1,0 +1,201 @@
+/* RESET CSS */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+CODE COULEUR SITE:
+
+Bleu clair
+#88c1d0
+
+Jaune_
+#ffca4b
+
+Bleu foncé_
+#275fa0
+
+Noir_
+#000000
+ */
+
+
+/* HEADER */
+
+header{
+    background-color: white;
+    width: auto;
+    height: 80px;
+    display: flex;
+    
+    
+}
+header img
+{margin-top: 15px;}
+
+header nav{
+   display: flex;
+   justify-content: right;
+   justify-content: baseline;
+   
+}
+
+header nav  a
+{
+    text-align: right;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    color: black;
+    
+}
+header nav a:hover
+{
+color: #ffca4b;
+
+}
+header nav a{
+display: block;
+text-decoration: none;
+color: black;
+margin-left: 20px;
+margin-right: 20px;
+font-weight: bold;
+}
+
+/* SECTION */
+
+section article{
+    color: white;
+   
+   
+}
+section article h1{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 40px;
+margin-top: 20px;
+margin-left: 15px;
+margin-top: 15px;
+}
+section article p,ul,li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    margin-left: 15px;
+    margin-top: 15px;
+    }
+
+    section div{
+
+        margin-top: 20%;
+        margin-left: 10%;
+    
+    }
+
+    section div a{
+        text-decoration: none;
+        font-size: medium;
+        background-color: #ffca4b;
+        font-size: 40px;
+        color: white;
+        border-radius: 20px;
+        padding: 10px;
+        border: solid 1px white;
+        margin: bottom 10   0px;
+        
+    }
+
+section div a:hover
+{
+    color: #275fa0  ;
+}
+
+    p{
+        line-height: 1.5!important;
+        letter-spacing:.12em!important;
+        word-spacing: .16em !important;
+    }
+article{
+    
+}
+
+/* FOOTER */
+    footer{
+        text-align: center;
+    }
+
+    footer p{
+        line-height: 1.5!important;
+        letter-spacing:.12em!important;
+        word-spacing: .16em !important;
+    }
+
+    /* CLASSE */
+
+.color_section{
+    background-color:#275fa0 ;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.color_footer
+{
+    background-color: #88c1d0;
+    background-image: url(https://i0.wp.com/laplateforme.io/wp-content/uploads/2019/04/laplateforme_logo.jpg?w=1080&ssl=1);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    
+}
+
+.size_nav{
+    flex-shrink: 3;
+}
+.flex_article{
+    display: flex;
+    inli
+    
+    
+}
